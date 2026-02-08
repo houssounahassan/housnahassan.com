@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="80" height="80">
+  <!-- Pile de livres -->
+  <!-- Livre 1 (bas, rouge) -->
+  <rect x="20" y="60" width="60" height="15" fill="#FF6B6B" stroke="#333" stroke-width="2" rx="2"/>
+  <!-- Livre 2 (milieu, bleu) -->
+  <rect x="25" y="45" width="55" height="15" fill="#4ECDC4" stroke="#333" stroke-width="2" rx="2"/>
+  <!-- Livre 3 (haut, jaune) -->
+  <rect x="30" y="30" width="50" height="15" fill="#FFE66D" stroke="#333" stroke-width="2" rx="2"/>
+  <!-- Lignes sur les livres -->
+  <line x1="35" y1="36" x2="75" y2="36" stroke="#333" stroke-width="0.5"/>
+  <line x1="35" y1="39" x2="70" y2="39" stroke="#333" stroke-width="0.5"/>
+  <line x1="30" y1="51" x2="80" y2="51" stroke="#333" stroke-width="0.5"/>
+  <!-- Marqueur de page -->
+  <rect x="72" y="28" width="4" height="20" fill="#FF6B6B" opacity="0.7"/>
+</svg>

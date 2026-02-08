@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="80" height="80">
+  <!-- Maison -->
+  <path d="M 20 70 L 20 40 L 50 15 L 80 40 L 80 70 Z" fill="#FF6B6B" stroke="#333" stroke-width="2"/>
+  <!-- Porte -->
+  <rect x="42" y="55" width="16" height="20" fill="#8B4513" stroke="#333" stroke-width="1"/>
+  <!-- Poignée -->
+  <circle cx="56" cy="65" r="1.5" fill="#FFD700"/>
+  <!-- Fenêtre gauche -->
+  <rect x="30" y="35" width="12" height="12" fill="#87CEEB" stroke="#333" stroke-width="1"/>
+  <!-- Fenêtre droite -->
+  <rect x="58" y="35" width="12" height="12" fill="#87CEEB" stroke="#333" stroke-width="1"/>
+  <!-- Cheminée -->
+  <rect x="65" y="25" width="6" height="15" fill="#8B4513" stroke="#333" stroke-width="1"/>
+</svg>

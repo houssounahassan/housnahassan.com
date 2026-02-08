@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="80" height="80">
+  <!-- Enveloppe -->
+  <rect x="15" y="30" width="70" height="45" fill="none" stroke="#333" stroke-width="2" rx="3"/>
+  <!-- Rabat -->
+  <path d="M 15 30 L 50 55 L 85 30" fill="none" stroke="#333" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Intérieur ligne -->
+  <line x1="50" y1="55" x2="50" y2="75" stroke="#333" stroke-width="1" stroke-dasharray="3"/>
+  <!-- Symbole @ pour email -->
+  <g transform="translate(50, 52)">
+    <circle cx="0" cy="0" r="8" fill="none" stroke="#FF6B6B" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="4" fill="#FF6B6B"/>
+  </g>
+</svg>

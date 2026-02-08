@@ -1,0 +1,109 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background-image: url("download (2).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header h1 {
+    font: 1em sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex: 1;
+}
+
+header img {
+    height: 100px;
+    width: auto;
+    margin-left: 20px;
+}
+
+Nav {
+    margin: 0;
+    padding: 0;
+}
+
+header,footer{
+    height: 300px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 20px;
+}
+
+section > h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #333;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section article {
+    border: 2px solid #333;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 8px;
+    width: 220px;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+section article h3 {
+    background-color: #87CEEB;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+    border-radius: 6px 6px 0 0;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+section article p {
+    background-color: #87CEEB;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+}
+
+.contact-form-section {
+    background-color: #87CEEB;
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    max-width: 500px;
+}
+
+.contact-form-section h2 {
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+}
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
